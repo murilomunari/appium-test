@@ -1,0 +1,1005 @@
+16:16:48.732 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:16:48.732 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:16:48.997 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:16:48.998 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:12.047 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:28:12.047 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:28:12.218 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:28:12.219 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:12.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:28:12.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:28:12.563 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: cf544d46-9f6f-48d0-8e4a-49ddfb6373e0
+16:28:12.563 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:28:12.595 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:28:12.596 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:28:12.596 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:28:13.365 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:28:13.366 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:28:13.366 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:28:13.367 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:28:13.380 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:28:17.794 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:28:17.794 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:28:18.088 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:28:18.839 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 893gmhy6p72fuztowydry3i17zfespbnl5netjwc
+16:28:18.839 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:28:18.842 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:28:25.118 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:28:25.937 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:28:25.937 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:25.939 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:28:25.939 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:25.940 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:28:25.941 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:26.232 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: bb36285b-cbcc-44eb-83df-2acfbfccc757
+16:28:26.232 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:28:26.235 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: f1041172-f7bd-4658-9d01-2a31d35f2ea7
+16:28:26.235 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:28:26.235 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 88839f43-7bf3-4e98-9536-f74dff2fdbf9
+16:28:26.236 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:28:26.270 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:28:26.271 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:28:26.271 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:28:26.271 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:28:26.272 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:28:26.272 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:28:26.273 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:28:26.274 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:28:26.274 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:28:26.729 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:28:26.729 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:28:26.729 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:28:26.730 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:28:26.738 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:28:26.754 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:28:26.754 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:28:26.754 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:28:26.754 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:28:26.756 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:28:26.756 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:28:26.756 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:28:26.757 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:28:26.762 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:28:26.765 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:28:30.363 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:28:30.364 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:28:30.396 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:28:30.443 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:28:30.443 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:28:30.444 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:28:30.444 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:28:30.471 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:28:30.472 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:28:33.961 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:28:36.266 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:36.266 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:28:38.451 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: cf544d46-9f6f-48d0-8e4a-49ddfb6373e0, testhub id: 893gmhy6p72fuztowydry3i17zfespbnl5netjwc
+16:28:38.452 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:30:03.828 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:30:03.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:30:03.999 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:30:03.999 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:30:04.341 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:30:04.342 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:30:04.344 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 9e278c18-c9be-4e65-9ecc-c9e160aa6ab7
+16:30:04.344 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:30:04.374 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:30:04.375 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:30:04.375 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:30:04.783 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:30:04.784 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:30:04.784 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:30:04.784 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:30:04.794 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:30:09.225 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:30:09.225 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:30:10.043 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:10.696 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: f476nspax7iv2ybq6i9xgvkqfluhwkn1n8sk0vbs
+16:30:10.696 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:30:10.698 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:30:15.388 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:30:16.149 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:30:16.150 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:30:16.153 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:30:16.153 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:30:16.158 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:30:16.159 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:30:16.401 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: df1298ff-6b6f-485e-a409-90286b104185
+16:30:16.402 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:30:16.408 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 68c2686a-a5ce-4f80-9e54-16323c48e710
+16:30:16.408 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:30:16.413 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: db46e0c4-4211-4a7c-9c51-041c83ad2b3f
+16:30:16.414 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:30:16.438 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:30:16.439 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:30:16.439 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:30:16.441 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:30:16.442 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:30:16.442 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:30:16.446 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:30:16.447 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:30:16.447 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:30:16.921 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:30:16.922 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:30:16.922 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:30:16.923 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:30:16.933 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:30:17.251 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:30:17.251 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:30:17.251 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:30:17.251 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:30:17.259 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:30:17.292 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:30:17.292 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:30:17.292 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:30:17.293 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:30:17.301 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:30:20.775 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:20.809 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:20.820 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:30:20.837 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:30:20.837 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:30:20.872 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:30:20.872 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:30:20.882 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:30:20.882 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:30:23.996 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:30:26.235 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:30:26.235 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:30:28.591 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 9e278c18-c9be-4e65-9ecc-c9e160aa6ab7, testhub id: f476nspax7iv2ybq6i9xgvkqfluhwkn1n8sk0vbs
+16:30:28.591 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:21.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:31:21.987 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:31:22.165 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:31:22.165 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:31:22.517 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:31:22.517 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:31:22.519 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: c259131a-cbfa-4a49-b92a-ac98086c4df8
+16:31:22.519 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:22.548 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:31:22.549 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:31:22.549 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:31:22.941 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:31:22.941 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:31:22.941 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:31:22.941 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:31:22.949 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:31:27.178 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:31:27.178 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:31:27.457 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:31:28.172 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 7b8y7qsvdiphftzjwzqv7qwdoo8rjpooid1lxdnl
+16:31:28.172 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:28.174 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:31:33.234 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:31:34.002 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:31:34.003 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:31:34.004 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:31:34.005 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:31:34.007 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:31:34.007 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:31:34.260 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e6e90146-16be-4207-90db-7f120687abaf
+16:31:34.261 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:34.264 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7378ccc4-37b1-42a4-bb8b-baaaabdb9e86
+16:31:34.264 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:34.267 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 4262d239-70b7-45bf-a38e-355d99cd0f62
+16:31:34.267 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:31:34.292 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:31:34.293 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:31:34.293 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:31:34.296 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:31:34.297 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:31:34.297 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:31:34.301 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:31:34.301 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:31:34.301 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:31:34.787 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:31:34.787 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:31:34.787 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:31:34.788 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:31:34.794 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:31:34.794 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:31:34.794 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:31:34.794 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:31:34.797 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:31:34.800 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:31:34.800 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:31:34.800 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:31:34.800 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:31:34.802 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:31:34.809 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:31:38.399 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:31:38.403 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:31:38.412 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:31:38.460 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:31:38.460 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:31:38.463 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:31:38.463 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:31:38.476 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:31:38.477 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:31:41.527 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:31:43.923 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:31:43.923 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:31:46.183 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: c259131a-cbfa-4a49-b92a-ac98086c4df8, testhub id: 7b8y7qsvdiphftzjwzqv7qwdoo8rjpooid1lxdnl
+16:31:46.183 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:04.612 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:35:04.613 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:35:04.784 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:04.784 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:05.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:35:05.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:35:05.129 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: fb48255b-00a9-4a4b-a4d3-def88c02513a
+16:35:05.129 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:05.159 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:05.160 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:05.160 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:05.736 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:05.737 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:05.737 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:05.737 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:05.745 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:10.296 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:10.297 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:10.609 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:11.317 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: h4nt7ocf92fafkt5xnpbyoshprlzabc9narzpyhd
+16:35:11.317 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:11.319 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:35:16.341 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:35:17.117 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:17.117 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:17.123 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:17.123 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:17.125 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:17.126 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:17.378 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 319cfd5d-cd58-4964-8b07-7a9195e4cba8
+16:35:17.378 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:17.381 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e5f94ae7-0aca-4d93-9dec-a9fbb3a3f3f4
+16:35:17.382 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:17.382 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e6425f40-5b70-4994-84cb-eede101090ba
+16:35:17.382 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:17.414 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:17.415 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:17.415 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:17.416 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:17.417 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:17.417 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:17.418 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:17.418 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:17.418 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:17.917 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:17.917 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:17.917 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:17.917 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:17.925 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:17.939 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:17.939 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:17.939 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:17.939 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:17.947 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:17.958 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:17.958 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:17.958 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:17.959 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:17.967 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:21.827 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:21.849 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:21.851 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:21.889 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:21.889 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:21.915 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:21.915 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:21.915 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:21.915 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:25.137 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:35:27.375 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:27.376 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:30.041 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: fb48255b-00a9-4a4b-a4d3-def88c02513a, testhub id: h4nt7ocf92fafkt5xnpbyoshprlzabc9narzpyhd
+16:35:30.041 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:42.784 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:35:42.784 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:35:42.959 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:42.960 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:43.303 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:35:43.303 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:35:43.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: ce5dd40a-dc1a-4fae-a56e-4e159f485845
+16:35:43.306 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:43.335 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:43.336 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:43.337 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:43.697 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:43.697 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:43.697 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:43.698 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:43.707 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:47.370 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:47.370 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:47.625 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:48.286 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: s02q0tx4ktuurnj1nph2c5h2mpk3k1e99cqfef7s
+16:35:48.286 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:48.290 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:35:53.065 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:35:53.826 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:53.826 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:53.833 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:53.834 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:53.838 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:35:53.839 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:35:54.084 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 23af96b4-067a-4a85-a38f-762f00f01676
+16:35:54.085 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:54.093 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 9a96a874-9037-4311-b79c-5edc59742944
+16:35:54.093 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:54.096 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 51d295a8-5099-4a86-9511-0aafc88c89da
+16:35:54.096 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:35:54.124 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:54.125 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:54.125 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:54.130 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:54.130 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:35:54.131 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:54.131 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:54.132 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:35:54.132 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:35:54.674 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:54.675 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:54.675 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:54.676 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:54.680 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:54.680 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:54.680 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:54.681 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:54.684 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:54.688 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:54.721 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:35:54.722 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:35:54.722 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:35:54.722 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:35:54.730 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:35:58.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:58.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:58.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:35:59.032 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:59.032 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:59.032 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:59.032 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:35:59.032 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:35:59.032 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:36:02.191 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:36:04.419 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:36:04.420 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:36:06.970 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: ce5dd40a-dc1a-4fae-a56e-4e159f485845, testhub id: s02q0tx4ktuurnj1nph2c5h2mpk3k1e99cqfef7s
+16:36:06.970 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:17.865 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:37:17.866 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:37:18.035 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:37:18.035 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:37:18.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:37:18.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:37:18.377 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 32e8ba9a-d2cd-4d4a-95f8-1212e72e4d6e
+16:37:18.377 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:18.406 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:37:18.407 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:37:18.407 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:37:18.790 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:37:18.790 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:37:18.790 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:37:18.791 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:37:18.800 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:37:22.878 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:37:22.878 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:37:23.175 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:37:23.818 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 8fdmjlcmp1ci5c37nbktx9f1tvuhvuedbng03gp4
+16:37:23.818 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:23.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:37:28.503 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:37:29.266 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:37:29.267 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:37:29.267 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:37:29.268 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:37:29.268 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:37:29.268 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:37:29.525 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 5dd16072-2288-4ea6-9998-0b54af6fa37c
+16:37:29.525 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:29.526 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 34ffdc27-7194-4ce2-91c9-487f6c139f9b
+16:37:29.526 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:29.527 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3e4514de-3ced-486f-ac31-0424965df282
+16:37:29.527 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:37:29.559 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:37:29.560 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:37:29.560 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:37:29.560 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:37:29.561 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:37:29.561 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:37:29.561 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:37:29.562 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:37:29.562 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:37:30.033 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:37:30.033 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:37:30.033 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:37:30.034 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:37:30.042 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:37:30.060 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:37:30.060 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:37:30.060 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:37:30.061 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:37:30.069 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:37:30.070 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:37:30.070 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:37:30.070 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:37:30.071 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:37:30.079 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:37:33.686 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:37:33.696 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:37:33.717 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:37:33.749 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:37:33.749 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:37:33.756 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:37:33.756 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:37:33.779 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:37:33.779 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:37:36.860 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:37:39.090 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:37:39.091 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:37:41.784 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 32e8ba9a-d2cd-4d4a-95f8-1212e72e4d6e, testhub id: 8fdmjlcmp1ci5c37nbktx9f1tvuhvuedbng03gp4
+16:37:41.784 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:38:29.760 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.32.0
+16:38:29.760 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.4.0
+16:38:29.932 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:38:29.933 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:38:30.277 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://095c456f19021c8672aca9666ebf82b81e3b3ed9]
+16:38:30.277 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to java
+16:38:30.279 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: d19ca53a-0330-4dd6-a8e6-67653f6b1f47
+16:38:30.279 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:38:30.308 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:38:30.309 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:38:30.309 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:38:30.693 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:38:30.693 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:38:30.693 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:38:30.694 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:38:30.702 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:38:35.031 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:38:35.031 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:38:35.301 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:38:35.967 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: lyfbafua89r9rywjaofhxmhqmb1lncpjp5tpbc0b
+16:38:35.967 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:38:35.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:38:40.534 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:38:41.338 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:38:41.339 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:38:41.340 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:38:41.341 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:38:41.349 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:38:41.350 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:38:41.605 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: fe26310c-b158-4d7c-97c7-9e97ef4ee185
+16:38:41.605 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1c6abf11-d6ba-4cfc-926c-d3ca328d2a5e
+16:38:41.605 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:38:41.605 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:38:41.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 4198f1e1-106c-498a-8df3-8fc2333e9316
+16:38:41.620 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:38:41.639 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:38:41.639 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:38:41.639 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:38:41.642 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:38:41.643 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:38:41.643 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:38:41.654 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\mu_bi\.browserstack already exist
+16:38:41.655 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:38:41.655 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:38:42.119 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:38:42.120 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:38:42.120 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:38:42.120 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:38:42.128 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:38:42.142 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:38:42.142 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:38:42.142 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:38:42.142 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:38:42.150 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:38:42.229 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:38:42.229 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:38:42.229 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:38:42.230 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:38:42.237 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=java
+16:38:46.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:38:46.033 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:38:46.035 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:38:46.093 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:38:46.093 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:38:46.099 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:38:46.100 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:38:46.100 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 1.2.5 which is lower than the minimum version we currently support (7.3.0).
+16:38:46.100 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is java. We currently support frameworks testng, cucumber-testng & serenity
+16:39:14.049 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:39:16.766 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:39:16.766 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\mu_bi\Downloads\appium-com-cucumber\browserstack.yml
+16:39:19.193 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/f393459ff5880ca3cc0927bd179c12ded6cd12eb
+16:39:19.193 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:39:19.198 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: d19ca53a-0330-4dd6-a8e6-67653f6b1f47, testhub id: lyfbafua89r9rywjaofhxmhqmb1lncpjp5tpbc0b
+16:39:19.198 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:47:22.980 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1716)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1724)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1562)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1525)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:744)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:254)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+16:47:42.817 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1716)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1724)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1562)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1525)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:744)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:254)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+

@@ -1,9 +1,9 @@
 package com.test;
 
-import cucumber.api.java.Before;
+import io.cucumber.java.Before;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import io.appium.java_client.android.options.UiAutomator2Options;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -13,30 +13,30 @@ public class Hooks {
     private static AppiumDriver driver;
 
     public static AppiumDriver validateDriver() throws MalformedURLException {
+        UiAutomator2Options capabilities = new UiAutomator2Options();
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("app", "/Users/hsoares/Downloads/QazandoSeleniumJava-master/projetoYoutube/apps/app-debug.apk");
-        capabilities.setCapability("deviceName", "emulator-5554");
-        capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability("browserstack.user", "murilomunari_xtfEps");
+        capabilities.setCapability("browserstack.key", "z3uYEiXk5639GxTnka55");
+        capabilities.setApp("bs://095c456f19021c8672aca9666ebf82b81e3b3ed9");
+        capabilities.setPlatformName("Android");
+
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
         return driver;
     }
 
-    public static AppiumDriver getDriver(){
+    public static AppiumDriver getDriver() {
         return driver;
     }
 
     public static void quitDriver() {
-        if(driver != null) {
+        if (driver != null) {
             driver.quit();
         }
     }
 
     @Before
-    public static void startProject() throws MalformedURLException {
-        if (getDriver() != null){
-            getDriver().launchApp();
-        } else {
+    public void startProject() throws MalformedURLException {
+        if (getDriver() == null) {
             validateDriver();
         }
     }
