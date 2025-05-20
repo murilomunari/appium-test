@@ -1,0 +1,11 @@
+16:13:15.369 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+16:13:15.371 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - C:/Users/mu_bi/.m2/repository/com/browserstack/browserstack-java-sdk/1.32.9/browserstack-java-sdk-1.32.9.jar
+16:13:15.371 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+16:13:15.377 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+16:13:15.378 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - C:/Users/mu_bi/.m2/repository/com/browserstack/browserstack-java-sdk/1.32.9/browserstack-java-sdk-1.32.9.jar
+16:13:15.378 [AWT-EventQueue-0] INFO  com.browserstack.utils.Helpers - null
+16:13:55.627 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Integrate source: java:appium-intellij:v1.1.6
+16:13:55.628 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+16:13:55.732 [ApplicationImpl pooled thread 11] INFO  c.b.l.BrowserStackRunExtension - maven
+16:13:55.732 [ApplicationImpl pooled thread 11] INFO  com.browserstack.utils.Helpers - null
+16:14:01.701 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
