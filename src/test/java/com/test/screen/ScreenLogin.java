@@ -14,6 +14,9 @@ public class ScreenLogin extends BaseScreen {
     @AndroidFindBy(id = "login_button")
     private RemoteWebElement fieldButton;
 
+    @AndroidFindBy(id = "mensagem2")
+    private RemoteWebElement message;
+
     public void writeEmail(){
         fieldEmail.sendKeys("qazando@gmail.com");
     }
@@ -24,5 +27,9 @@ public class ScreenLogin extends BaseScreen {
 
     public void clickButton(){
         fieldButton.click();
+    }
+
+    public String getMessage(){
+        return message.getText();
     }
 }
